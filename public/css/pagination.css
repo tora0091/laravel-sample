@@ -1,0 +1,31 @@
+.pagination {
+    overflow: hidden;
+}
+.pagination ul {
+    list-style: none;
+    position: relative;
+    left: 40%;
+    float: left;
+}
+.pagination ul li {
+    margin: 0 1px;
+    position: relative;
+    left: -50%;
+    float: left;
+}
+.pagination ul li span,
+.pagination ul li a {
+    display: block;
+    font-size: 16px;
+    padding: 0.6em 1em;
+    border-radius: 3px;
+}
+.pagination ul li a {
+    background: #EEE;
+    color: #000;
+    text-decoration: none;
+}
+.pagination ul li a:hover {
+    background: #333;
+    color: #FFF;
+}

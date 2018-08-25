@@ -1,0 +1,1 @@
+    <a href="{{ Route('menu::index') }}" class="btn btn-primary">メインメニューへ戻る</a>
