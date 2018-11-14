@@ -1,0 +1,63 @@
+〇Laravelプロジェクト作成
+$ cd [プロジェクト作成ディレクトリ]
+$ composer create-project laravel/laravel [プロジェクト名] --prefer-dist
+
+
+〇LaravelのHTTPサーバ起動
+$ php artisan serve
+
+
+〇migration
+$ php artisan migrate
+
+
+〇ルーティング確認
+$ php artisan route:list
+
+
+〇Auth環境追加
+$ php artisan make:auth
+
+
+〇コントローラー作成
+$ php artisan make:controller [UserController] --resource
+
+
+〇モデル作成
+$ php artisan make:model [UserModel]
+
+
+〇リクエスト作成
+$ php artisan make:request [PostRequest]
+
+
+〇マイグレーションファイル作成
+$ php artisan make:migration [create_members_table]
+
+
+〇コンフィグキャッシュクリア
+$ php artisan config:clear
+
+
+〇自作クラスを動的読込できるように追加
+$ composer dump-autoload
+
+
+〇vendor直下のファイルを変更する際に利用
+$ php artisan vendor:publish
+
+
+〇クリア系
+$ php artisan cache:clear
+$ php artisan config:clear
+$ php artisan route:clear
+$ php artisan view:clear
+
+
+〇実行したマイグレーションのロールバック
+$ php artisan migrate:rollback
+
+
+〇テーブルを全部消して再度作り直し
+$ php artisan migrate:refresh
+
