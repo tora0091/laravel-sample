@@ -27,6 +27,10 @@ Database
 
 - Repository pattern app/Repositories and app/Providers/AppServiceProvider.php
 
+Data Transfoer Object
+
+- app/Dto
+
 Validation
 
 - app/Http/Requests
